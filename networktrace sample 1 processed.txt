@@ -1,0 +1,654 @@
+Node.js v9.6.1 wurde erkannt. Deswegen erfolgt das Debuggen mit dem Inspector-Protokoll.
+node --inspect-brk=16096 main.js 
+Debugger listening on ws://127.0.0.1:16096/0cc36224-5537-4bbc-9c09-63dea72a93ef
+Server listening on 192.168.2.120:12004
+CONNECTED: 192.168.2.129:56950
+Wrote send all
+---------------
+incomming
+ Device: hg1
+ Datapoint: 1
+ Datapoint_name: Störung
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006000100010001030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 2
+ Datapoint_name: Betriebsart
+ Datapoint_type: DPT_HVACContrMode
+ Data: 0620f080001504000000f006000200010002030101
+ Lengh: 21
+ Value: Heat
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030170
+ Lengh: 21
+ Value: 45
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 4
+ Datapoint_name: Kesseltemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600040001000403020f53
+ Lengh: 22
+ Value: 37.5
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 5
+ Datapoint_name: Sammlertemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600050001000503020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 6
+ Datapoint_name: Rücklauftemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600060001000603020d7d
+ Lengh: 22
+ Value: 28.1
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 7
+ Datapoint_name: Warmwassertemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006000700010007030214a6
+ Lengh: 22
+ Value: 47.6
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 8
+ Datapoint_name: Außentemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006000800010008030283dc
+ Lengh: 22
+ Value: -10.6
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 9
+ Datapoint_name: Status Brenner / Flamme
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006000900010009030101
+ Lengh: 21
+ Value: On
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 10
+ Datapoint_name: Status Heizkreispumpe
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006000a0001000a030101
+ Lengh: 21
+ Value: On
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 11
+ Datapoint_name: Status Speicherladepumpe
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006000b0001000b030100
+ Lengh: 21
+ Value: Off
+ -----
+incomming
+ Device: hg1
+ Datapoint: 12
+ Datapoint_name: Status 3-Wege-Umschaltventil
+ Datapoint_type: DPT_OpenClose
+ Data: 0620f080001504000000f006000c0001000c030100
+ Lengh: 21
+ Value: Close
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 13
+ Datapoint_name: Anlagendruck
+ Datapoint_type: DPT_Value_Pres
+ Data: 0620f080001604000000f006000d0001000d03027413
+ Lengh: 22
+ Value: 1.71
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 53
+ Datapoint_name: Störung
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003500010035030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 54
+ Datapoint_name: Außentemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600360001003603028396
+ Lengh: 22
+ Value: -11.3
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 55
+ Datapoint_name: Raumtemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600370001003703020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 56
+ Datapoint_name: Warmwassersolltemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006003800010038030214e2
+ Lengh: 22
+ Value: 50
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 57
+ Datapoint_name: Programmwahl Heizkreis
+ Datapoint_type: DPT_HVACMode
+ Data: 0620f080001504000000f006003900010039030100
+ Lengh: 21
+ Value: Automatikbetrieb
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 58
+ Datapoint_name: Programmwahl Warmwasser
+ Datapoint_type: DPT_DHWMode
+ Data: 0620f080001504000000f006003a0001003a030100
+ Lengh: 21
+ Value: Automatikbetrieb
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 60
+ Datapoint_name: Heizkreis Zeitprogramm 2
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003c0001003c030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 61
+ Datapoint_name: Heizkreis Zeitprogramm 3
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003d0001003d030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 59
+ Datapoint_name: Heizkreis Zeitprogramm 1
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003b0001003b030101
+ Lengh: 21
+ Value: On
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 61
+ Datapoint_name: Heizkreis Zeitprogramm 3
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003d0001003d030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 62
+ Datapoint_name: Warmwasser Zeitprogramm 1
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003e0001003e030101
+ Lengh: 21
+ Value: On
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 63
+ Datapoint_name: Warmwasser Zeitprogramm 2
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006003f0001003f030100
+ Lengh: 21
+ Value: Off
+ -----
+incomming
+ Device: bm1
+ Datapoint: 64
+ Datapoint_name: Warmwasser Zeitprogramm 3
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006004000010040030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 65
+ Datapoint_name: Sollwertkorrektur
+ Datapoint_type: DPT_Tempd
+ Data: 0620f080001604000000f00600410001004103020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: bm1
+ Datapoint: 66
+ Datapoint_name: Sparfaktor
+ Datapoint_type: DPT_Tempd
+ Data: 0620f080001604000000f006004200010042030200c8
+ Lengh: 22
+ Value: 2
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 135
+ Datapoint_name: Störung
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006008700010087030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 136
+ Datapoint_name: Warmwassertemperatur Solar 1
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600880001008803020f21
+ Lengh: 22
+ Value: 36.5
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 137
+ Datapoint_name: Temperatur Kollektor 1
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600890001008903028634
+ Lengh: 22
+ Value: -4.6
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 138
+ Datapoint_name: Eingang E1
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006008a0001008a03028830
+ Lengh: 22
+ Value: -40
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 139
+ Datapoint_name: Eingang E2 (Durchfluss)
+ Datapoint_type: DPT_Value_Volume_Flow
+ Data: 0620f080001604000000f006008b0001008b03020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 140
+ Datapoint_name: Eingang E3
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006008c0001008c03020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 141
+ Datapoint_name: Status Solarkreispumpe SKP1
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f006008d0001008d030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 142
+ Datapoint_name: Status Ausgang A1
+ Datapoint_type: DPT_Enable
+ Data: 0620f080001504000000f006008e0001008e030100
+ Lengh: 21
+ Value: Disable
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 143
+ Datapoint_name: Status Ausgang A2
+ Datapoint_type: DPT_Enable
+ Data: 0620f080001504000000f006008f0001008f030100
+ Lengh: 21
+ Value: Disable
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 144
+ Datapoint_name: Status Ausgang A3
+ Datapoint_type: DPT_Enable
+ Data: 0620f080001504000000f006009000010090030100
+ Lengh: 21
+ Value: Disable
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 145
+ Datapoint_name: Status Ausgang A4
+ Datapoint_type: DPT_Enable
+ Data: 0620f080001504000000f006009100010091030100
+ Lengh: 21
+ Value: Disable
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 146
+ Datapoint_name: Durchfluss
+ Datapoint_type: DPT_Value_Volume_Flow
+ Data: 0620f080001604000000f00600920001009203020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 147
+ Datapoint_name: aktuelle Leistung
+ Datapoint_type: DPT_Power
+ Data: 0620f080001604000000f00600930001009303024500
+ Lengh: 22
+ Value: 3276.8
+ -----
+---------------
+incomming
+ Device: sys
+ Datapoint: 194
+ Datapoint_name: 1xWarmwasserladung
+ Datapoint_type: DPT_Switch
+ Data: 0620f080001504000000f00600c2000100c2030100
+ Lengh: 21
+ Value: Off
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 195
+ Datapoint_name: Tagesertrag
+ Datapoint_type: DPT_ActiveEnergy
+ Data: 0620f080001804000000f00600c3000100c3030400008000
+ Lengh: 24
+ Value: 32768
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 196
+ Datapoint_name: Gesamtertrag
+ Datapoint_type: DPT_ActiveEnergy_kWh
+ Data: 0620f080001804000000f00600c4000100c4030400000000
+ Lengh: 24
+ Value: 0
+ -----
+---------------
+incomming
+ Device: hg0
+ Datapoint: 197
+ Datapoint_name: Abgastemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600c5000100c503020e72
+ Lengh: 22
+ Value: 33
+ -----
+---------------
+incomming
+ Device: hg0
+ Datapoint: 198
+ Datapoint_name: Leistungsvorgabe
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600c6000100c6030100
+ Lengh: 21
+ Value: 0
+ -----
+---------------
+incomming
+ Device: hg0
+ Datapoint: 199
+ Datapoint_name: Kesselsolltemperaturvorgabe
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600c7000100c703020000
+ Lengh: 22
+ Value: 0
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600030001000303016d
+ Lengh: 21
+ Value: 44
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 4
+ Datapoint_name: Kesseltemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600040001000403020f71
+ Lengh: 22
+ Value: 38.1
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600030001000303016b
+ Lengh: 21
+ Value: 43
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 7
+ Datapoint_name: Warmwassertemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600070001000703021499
+ Lengh: 22
+ Value: 47.08
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030170
+ Lengh: 21
+ Value: 45
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 4
+ Datapoint_name: Kesseltemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600040001000403020f3f
+ Lengh: 22
+ Value: 37.1
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600030001000303016d
+ Lengh: 21
+ Value: 44
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 4
+ Datapoint_name: Kesseltemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600040001000403020f5d
+ Lengh: 22
+ Value: 37.7
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 137
+ Datapoint_name: Temperatur Kollektor 1
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f00600890001008903028684
+ Lengh: 22
+ Value: -3.8
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030170
+ Lengh: 21
+ Value: 45
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030172
+ Lengh: 21
+ Value: 46
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030175
+ Lengh: 21
+ Value: 47
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 7
+ Datapoint_name: Warmwassertemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f0060007000100070302148d
+ Lengh: 22
+ Value: 46.6
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f006000300010003030177
+ Lengh: 21
+ Value: 48
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600030001000303017a
+ Lengh: 21
+ Value: 49
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 7
+ Datapoint_name: Warmwassertemperatur
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f0060007000100070302147b
+ Lengh: 22
+ Value: 45.88
+ -----
+---------------
+incomming
+ Device: sm1
+ Datapoint: 137
+ Datapoint_name: Temperatur Kollektor 1
+ Datapoint_type: DPT_Value_Temp
+ Data: 0620f080001604000000f006008900010089030286ca
+ Lengh: 22
+ Value: -3.1
+ -----
+---------------
+incomming
+ Device: hg1
+ Datapoint: 3
+ Datapoint_name: Modulationsgrad  Brennerleistung
+ Datapoint_type: DPT_Scaling
+ Data: 0620f080001504000000f00600030001000303017c
+ Lengh: 21
+ Value: 50
+ -----
